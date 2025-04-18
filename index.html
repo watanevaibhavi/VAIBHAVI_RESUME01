@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>VAIBHAVI WATANE - Resume</title>
+  <style>
+    body {
+      font-family: 'Segoe UI', sans-serif;
+      margin: 0;
+      background: #f0f2f5;
+    }
+    .container {
+      display: flex;
+      max-width: 1100px;
+      margin: 30px auto;
+      background: white;
+      box-shadow: 0 0 15px rgba(0,0,0,0.1);
+    }
+    .left {
+      width: 30%;
+      background: #004d40;
+      color: white;
+      padding: 30px 20px;
+      text-align: center;
+    }
+    .left img {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      margin-bottom: 15px;
+      object-fit: cover;
+    }
+    .left h2 {
+      margin: 10px 0;
+    }
+    .left ul {
+      list-style: none;
+      padding: 0;
+      font-size: 14px;
+    }
+    .left ul li {
+      margin-bottom: 8px;
+    }
+    .right {
+      width: 70%;
+      padding: 30px;
+      color: #333;
+    }
+    .right h1 {
+      font-size: 28px;
+      margin: 0;
+    }
+    .right h3 {
+      color: #00695c;
+      margin-top: 20px;
+    }
+    .right ul {
+      padding-left: 20px;
+    }
+    .skills, .languages {
+      text-align: left;
+      margin-top: 20px;
+    }
+    .bar {
+      background: #ddd;
+      border-radius: 20px;
+      overflow: hidden;
+      margin: 5px 0;
+    }
+    .bar-fill {
+      height: 10px;
+      background: #009688;
+    }
+    .buttons {
+      text-align: center;
+      margin: 20px 0;
+    }
+    .buttons button {
+      margin: 8px;
+      padding: 10px 16px;
+      border: none;
+      color: white;
+      border-radius: 5px;
+      cursor: pointer;
+    }
+    .download { background: #00796b; }
+    .whatsapp { background: #25D366; }
+    .twitter { background: #1DA1F2; }
+    .linkedin { background: #0a66c2; }
+
+    #certificates {
+      max-width: 1000px;
+      margin: 40px auto;
+      padding: 20px;
+      background: white;
+      box-shadow: 0 0 10px rgba(0,0,0,0.1);
+    }
+    #certificates h2 {
+      text-align: center;
+      color: #004d40;
+    }
+    #certificates input[type="file"] {
+      display: block;
+      margin: 10px auto;
+    }
+    #certificate-preview {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+      margin-top: 20px;
+    }
+    #certificate-preview img {
+      width: 250px;
+      height: auto;
+      border: 1px solid #ccc;
+      border-radius: 8px;
+      box-shadow: 0 2px 6px rgba(0,0,0,0.1);
+    }
+  </style>
+</head>
+<body>
+
+<!-- Share & Download Buttons -->
+<div class="buttons">
+  <button class="download" onclick="downloadResume()">Download Resume</button>
+  <button class="whatsapp" onclick="shareWhatsApp()">WhatsApp</button>
+  <button class="twitter" onclick="shareTwitter()">Twitter</button>
+  <button class="linkedin" onclick="shareLinkedIn()">LinkedIn</button>
+</div>
+
+<div class="container">
+  <div class="left">
+    <img src="vaibhavi passport_imresizer.jpg" alt="Profile Image">
+    <h2>VAIBHAVI WATANE</h2>
+    <p>STUDENT</p>
+
+    <h4>Contact</h4>
+    <ul>
+      <li>8767769754</li>
+      <li>vaibhaviwatane30@gmail.com</li>
+      <li>CHAYA NAGAR, MORSHI</li>
+    </ul>
+
+    <h4>Skills</h4>
+    <div class="skills">
+      <p>Project Management</p>
+      <div class="bar"><div class="bar-fill" style="width: 90%"></div></div>
+      <p>Time Management</p>
+      <div class="bar"><div class="bar-fill" style="width: 85%"></div></div>
+    </div>
+
+    <h4>Languages</h4>
+    <div class="languages">
+      <p>English</p>
+      <div class="bar"><div class="bar-fill" style="width: 95%"></div></div>
+      <p>Hindi</p>
+      <div class="bar"><div class="bar-fill" style="width: 90%"></div></div>
+    </div>
+  </div>
+
+  <div class="right">
+    <h1>VAIBHAVI WATANE</h1>
+    <h3>Career Objective</h3>
+    <p>Driven by a curious mind and a relentless passion for creation, I aim to navigate the intersection of electronics,
+      intelligent systems, and artistic expression. With a foundation in Electronics and Telecommunication Engineering,
+      complemented by a minor in Artificial Intelligence and Data Science, my ambition is to design, build, and narrate—
+      from intricate PCBs to compelling written pieces. I aspire to contribute to environments where innovation is nurtured,
+      interdisciplinary thinking is celebrated, and every idea—whether engineered or penned—holds the power to spark change.
+    </p>
+
+    <h3>Education</h3>
+    <ul>
+      <li><strong>B.Tech – EXTC</strong> – P.R. Pote College, 2023–2027 – CGPA: 7.69</li>
+      <li><strong>HSC</strong> – R.R. LAHOTI SCIENCE College – 76%</li>
+      <li><strong>SSC</strong> – KHALLAR HIGHSCHOOL, KHALLAR – 89%</li>
+    </ul>
+
+    <h3>Certifications / Internships</h3>
+    <ul>
+      <li>Google AI-ML Internship – Eduskill</li>
+      <li>AWS Cloud Internship – Eduskill</li>
+      <li>Communication Skills – TCS iON</li>
+    </ul>
+
+    <h3>Examinations</h3>
+    <ul>
+      <li>JEE Score: 53</li>
+      <li>CET Score: 79</li>
+    </ul>
+
+    <h3>References</h3>
+    <p><strong>Dr. ABC XYZ</strong> – Professor, P.R. Pote College – Phone: 9876543210</p>
+  </div>
+</div>
+
+<!-- Certificates Section -->
+<div id="certificates">
+  <h2>Certificates</h2>
+  <input type="file" id="certificateUpload" multiple accept="image/*" />
+  <div id="certificate-preview"></div>
+</div>
+
+<!-- JavaScript for sharing, downloading, and previewing uploads -->
+<script>
+  const resumeURL = window.location.href;
+
+  function shareWhatsApp() {
+    window.open(https://wa.me/?text=Check out this resume: ${encodeURIComponent(resumeURL)}, '_blank');
+  }
+
+  function shareTwitter() {
+    window.open(https://twitter.com/intent/tweet?text=Check out this resume&url=${encodeURIComponent(resumeURL)}, '_blank');
+  }
+
+  function shareLinkedIn() {
+    window.open(https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(resumeURL)}, '_blank');
+  }
+
+  function downloadResume() {
+    window.print();
+  }
+
+  // Certificate preview handler
+  const certificateUpload = document.getElementById('certificateUpload');
+  const previewContainer = document.getElementById('certificate-preview');
+
+  certificateUpload.addEventListener('change', function () {
+    previewContainer.innerHTML = "";
+    for (let file of this.files) {
+      const reader = new FileReader();
+      reader.onload = function (e) {
+        const img = document.createElement('img');
+        img.src = e.target.result;
+        previewContainer.appendChild(img);
+      };
+      reader.readAsDataURL(file);
+    }
+  });
+</script>
+
+</body>
+</html>
